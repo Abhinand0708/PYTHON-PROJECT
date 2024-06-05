@@ -1,0 +1,25 @@
+Banking SystemProject
+Description
+
+This projectis a simple console-based banking system implemented in Python. It allows users to perform basic banking operations such as depositing money, withdrawing money, and checking their account balance. The system is designed to simulate a basic banking experience with straightforward functionality.
+
+Features
+
+Deposit Money: Users can add funds to their account.
+
+Withdraw Money: Users can withdraw funds from their account, provided they have sufficient balance.
+
+Balance Inquiry: Users can check the current balance of their account.
+
+
+Project Structure
+
+BankAccount Class: This class handles the core functionalities of the banking system, including depositing, withdrawing, and balance inquiry.
+    _init_(self, owner, balance=0.0): Initializes a new bank account with the account owner's name and an optional       initial balance.
+
+    deposit(self, amount): Adds the specified amount to the account balance.
+
+   withdraw(self, amount): Deducts the specified amount from the account balance if there are sufficient funds.
+
+   get_balance(self): Prints the current account balance.
+Main Function: The main function provides a simple text-based interface for users to interact with the banking system. It allows users to select actions from a menu and perform operations on their account.
